@@ -8,11 +8,14 @@ import {
 
 //Components
 import RootLayout from './layout/RootLayout';
-import Profile from './pages/Home';
+import AboutMe from './pages/AboutMe';
+import AwardsExperience from './pages/AwardsExperience';
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<RootLayout />}>
-      <Route index element={<Profile />} />
+      <Route index element={<AboutMe />} />
+      <Route path='/awards&experience' element={<AwardsExperience/>} />
     </Route>
   )
 )

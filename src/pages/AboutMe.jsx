@@ -1,6 +1,6 @@
 import { Box } from "@chakra-ui/react";
 import Profile from "../components/Profile";
-const Home = () => {
+const AboutMe = () => {
     return ( 
         <>
             <Box width={'90%'}>
@@ -10,4 +10,4 @@ const Home = () => {
      );
 }
  
-export default Home;
+export default AboutMe;

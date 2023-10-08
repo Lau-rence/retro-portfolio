@@ -30,6 +30,18 @@ const WindowComponent = ({ title, content, onClose, windowStyle }) => {
             //Footer Design
             footerBGColor = '#515151';
         break;
+        case 'gray': //White Design Layout
+            //Title Design
+            titleBGColor = '#a6a6a6';
+            titleColor = 'black';
+            titleFont = "Courier New, monospace";
+            titleWeight = 400;
+            titleSize = '15px';
+            //Body Design
+            bodySide = 'none';
+            //Footer Design
+            footerBGColor = '#b0b0b0';
+        break;
 
 
     }
@@ -38,7 +50,7 @@ const WindowComponent = ({ title, content, onClose, windowStyle }) => {
     <Box
       fontSize={"sm"}
       border={'1.5px solid black'}
-      fontFamily={"Courier New, monospace"}
+      fontFamily={"White Rabbit"}
       height={'max-content'}
       borderRadius={'4px'}
       width={'fit-content'}
